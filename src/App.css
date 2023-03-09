@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header{
+    width: 100%;
+}
+header>.navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header>.navbar>h1{
+    font-size: 28px;
+    padding: 14px 16px;
+    margin: 0;
+    font-weight: bold;
+}
+header>.navbar>.links>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}  
+header>.navbar>.links>ul>li {
+    float: left;
+}
+header>.navbar>.links>ul>li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}  
+.bt:hover {
+    background-color: #c9970d;
+}
+.bt{
+    background-color: #f7b605; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+/*header*/
+
+/*Home*/
+.Home{
+    width: 100%;
+}
+.Home>.Container{
+    width: 90%;
+    margin: 0 auto;
+}
+/*Posts*/
+.Posts{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Post{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+.Post>img{
+    border-radius: 5px;
+    width: 100%;
+}
+.Post>.post-autor{
+    color: rgba(10, 10, 10, 0.8);
+}
+/*Post*/
+.Post-Details{
+    width: 90%;
+    margin: 0 auto;
+}
+.Post-titre{
+    display: flex;
+    justify-content: space-between;
+}
+.bt-delete {
+    width: 140px;
+    height: 50px;
+    background-color: red;
+}
+.Post-image {
+    height: 330px;
+    width: 100%;
+    background: url('https://www.cnet.com/a/img/resize/b9e66585cdf259a71344fddc53b04339e4e162fb/hub/2022/04/27/b796792b-5b34-4405-83eb-efc66371ee06/samsung-galaxy-book-2-pro-360-01.jpg?auto=webp&fit=crop&height=630&width=1200');
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+}
+/*Post*/
+
+/*Add Post*/
+.create-post{
+    width: 70%;
+    margin: 0 auto;
+    background-color:#f2f2f2;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.create-post>form>input[type=text], select,input[type=url] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.create-post>form>textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+  
+.create-post>form>input[type=submit] {
+    width: 100%;
+    background-color:#f7b605;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.create-post>form>input[type=submit]:hover {
+    background-color: #b88a0c;
+  }
+
+/*Add Post*/
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
